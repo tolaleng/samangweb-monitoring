@@ -42,8 +42,8 @@ $details = json_decode($output);
 		<td><?php echo (($details->new_version == "no") ? "<div class='label label-success'>{$lang->_('NO')}</div>" : "<div class='label label-danger'>{$lang->_('YES')}</div>"); ?></td>
 	</tr>
 	<tr>
-		<th>CodeCanyon.net</th>
-		<td><a href="<?php echo $details->codecanyon; ?>" target="_blank">&raquo; Linux Tender page</a></td>
+		<th>Linux Tender</th>
+		<td><a href="<?php echo $details->Linux Tender; ?>" target="_blank">&raquo; Linux Tender page</a></td>
 	</tr>
 </table>
 
