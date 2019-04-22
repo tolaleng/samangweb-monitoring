@@ -34,8 +34,8 @@ if(!$login->Access()) {
 				<td><?php echo date($config['date_format'] . " " . $config['time_format'], strtotime($config['last_cron'])); ?></td>
 			</tr>
 			<tr>
-				<th>CodeCanyon.net</th>
-				<td><a href="http://codecanyon.net/item/advanced-website-uptime-monitor/11809914" target="_blank">&raquo; CodeCanyon.net page</a></td>
+				<th>LinuxTender.Com</th>
+				<td><a href="http://linuxtender.com" target="_blank">&raquo; Linux Tender page</a></td>
 			</tr>
 		</table>
 	</div>
