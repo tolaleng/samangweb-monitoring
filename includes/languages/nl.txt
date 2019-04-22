@@ -1,0 +1,344 @@
+## Website Uptime Monitor Language File
+## Language name: Netherlands
+## Monitor Version: 1.4.4
+## Created By: Justin991q
+
+<begin name="Global">
+DEMO=Dit is een demo-versie die voor testdoeleinden. Vanwege veiligheidsredenen hebben we een aantal functies uitgeschakeld.
+INSTALL=De <b>/install/</b> map bestaat nog, verwijder de <b>/install/</b> map
+LOGIN_TOKEN_EXPIRED=Login token verlopen, refresh de pagina.
+PASSWORD=Wachtwoord
+REPEATPASSWORD=Herhaal wachtwoord
+NEW_PASSWORD=Nieuw wachtwoord
+NAME=Naam
+USERNAME=Gebruikersnaam
+EMAIL=Email
+USERNAME_EMAIL=Gebruikersnaam of wachtwoord
+CAPTCHA=Captcha
+WRONGCAPTCHA=Je captcha is niet correct ingevuld.
+FIELDSREQUIRED=Vul alle velden in
+FORGOT_SOMETHING=Je bent iets vergeten.
+INVALIDCRFS=Ongeldige CRFS token, refresh de pagina
+USERNAME_PASSWORD_NOT_CORRECT=Deze gebruikersnaam/email is niet gevonden.
+AVERAGE=Gemiddelde
+DATE=Datum
+STATE=Status
+ONLINE=Online
+OFFLINE=Offline
+UNKNOWN=Onbekend
+DISABLED=Uitgeschakeld
+DELETED=Verwijderd
+OWNER=Eigenaar
+YES=Ja
+NO=Nee
+CHECK=Check
+SAVE=Opslaan
+CANCEL=Annuleer
+CURRENT=Huidig
+NOTIFICATIONS=Meldingen
+OPTIONS=Opties
+DELETE=Verwijder
+UPDATE=Update
+DUPLICATE=Verdubbel
+DOWNLOAD=Download
+EDIT=Bewerk
+STATISTICS=Statistieken
+NOT_AVAILABLE=Niet beschikbaar
+UNLIMITED=Onbeperkt
+INFORMATION=Informatie
+ADD=Toevoegen
+DEFAULT=Standaard
+LOADING_DASHBOARD=Dashboard is aan het laden, een ogenblik geduld.
+LOADING_SERVERS=De servers zijn aan het laden, een ogenblik geduld.
+<end>
+
+<begin name="Date and time">
+DATEFORMAT=%a dagen, %h uur, %i minuten
+DAYS=dagen
+SECONDS=seconden
+MINUTES=minuten
+TODAY=Vandaag
+YESTERDAY=Gisteren
+<end>
+
+<begin name="Not Found & Found">
+SERVER_NOT_FOUND=Deze server is niet gevonden
+DOMAIN_EXISTS=This domain does already exists in the server list.
+USER_NOT_FOUND=Deze gebruiker is niet gevonden
+LANGUAGE_NOT_FOUND=Dit taalpakket bestaat niet.
+LANGUAGE_FOUND=Dit taalpakket bestaat al.
+PUSHBULLET_NOT_FOUND=Dit pushbullet profiel is niet gevonden
+RESET_PASSWORD_ERROR_USER_NOT_FOUND=Deze gebruikersnaam en/of email bestaat niet
+CALENDAR_NOT_FOUND=Dit kalender item is niet gevonden.
+<end>
+
+<begin name="Sign Up & Sign In & Reset Password & Activate">
+SIGNIN=Login
+SIGNUP=Registreer
+SIGNUP_LONGER_USERNAME=Je gebruikersnaam moet langer zijn als %char% karakters.
+SIGNUP_LONGER_PASSWORD=Je wachtwoord moet langer zijn als %char% karakters.
+SIGNUP_PASSWORD_NOT_MATCH=Je wachtwoorden komen niet overeen
+SIRNUP_USERNAME_EXIST=Deze gebruikersnaam bestaat al.
+SIRNUP_EMAIL_EXIST=Dit email address staat al in ons systeem
+SIGNUP_EMAIL_INVALID=Dit email address is ongeldig
+SIGNUP_THEME_INVALID=Dit thema was niet gevonden
+SIGNUP_MAXSERVER_INTEGER=De 'Maximale servers' moet een cijfer zijn.
+SIGNUP_COMPLETED=Welkom %username%, je account is nu aangemaakt. Je kunt nu inloggen met je opgegeven inloggegevens.
+RESET_PASSWORD=Wachtwoord resetten
+RESET_PASSWORD_REQUESTED=We hebben je een email gestuurd om je wachtwoord te resetten
+RESET_PASSWORD_REQUESTED_FAILED=Je hebt al een verzoek gedaan om je wachtwoord te veranderen, probeer het nog een keer over 1 uur.
+INVALID_RESET_CODE=De reset code is onjuist
+PASSWORD_CHANGED=Je wachtwoord is succesvol veranderd.
+INVALID_ACTIVATE_CODE=Dit is een onjuiste activatie code.
+ACCOUNT_ACTIVATED=Je account is nu geactiveerd.
+ACCOUNT_ACITVATE_NOTIFICATION=Je moet je account activeren voor je de monitor kan gebruiken.
+ACCOUNT_INACTIVE=Je account is nog niet geactiveerd.
+<end>
+
+<begin name="Emails">
+RESET_PASSOWRD_EMAIL_TITLE=[Uptime Monitor] Reset Password
+RESET_PASSOWRD_EMAIL_MESSAGE=<b>Hallo %username%,</b><br /><br />Je hebt een nieuw wachtwoord aangevraagd op %title%.<br /><b>Gebruikersnaam:</b> %username%<br /><b>Reset link:</b> <a href='%url%'>%url%</a><br /><br />Als je je wachtwoord niet hebt opgevraagd kun je deze email negeren.<br /><br /><b>Met vriendelijke groet,</b><br /><br />%title%
+ACCOUNT_ACTIVATE_EMAIL_TITLE=[Uptime Monitor] Activeer je account
+ACCOUNT_ACTIVATE_EMAIL_MESSAGE=<b>Hallo %username%,</b><br /><br />Welkom op %title%.<br />Voordat je onze service kan gebruiken moet jij je account activeren.<br /><b>Gebruikersnaam:</b> %username%<br /><b>Wachtwoord:</b> %password%<br /><b>Activatie link:</b> <a href='%url%'>%url%</a><br /><br />Als je geen account hebt aangemaakt kun je deze email negeren.<br /><br /><b>Met vriendelijke groet,</b><br /><br />%title%
+<end>
+
+<begin name="Menu">
+MENU_DASHBOARD=Dashboard
+SERVER_MANAGER=Server Beheer
+HISTORY=Geschiedenis
+HELP=Help
+WIDGETS=Widgets
+ADMINISTRATION=Administratie
+CONFIG=Instellingen
+RESPONSE_CODES=Response codes
+USER_MANAGEMENT=Gebruiker beheer
+SYSTEM_CHECK=Systeem Check
+LANGUAGE_MANAGER=Taal beheer
+ACCOUNT_SETTINGS=Account Instellingen
+SIGNOUT=Uitloggen
+<end>
+
+<begin name="Dashboard & Server Manager & History">
+NEVER=Nooit
+SERVER=Server
+SERVER_SETTINGS=Server Instellingen
+SERVER_STATUS=Server Status
+ALL_SERVERS=alle servers
+EMAIL_LEAVE_BLANK=Laat leeg om email meldingen uit te schakelen
+CURRENTLY_DOWN=Momenteel offline
+RESPONSE=Response
+RESPONSE_CODE=Response code
+TOTAL_RESPONSE_CODES=Totale response codes
+RESPONSE_CODES_LAST_HOUR=Response codes laatste uur
+RESPONSE_CODES_TODAY=Response codes vandaag
+LOAD_TIME=Laadtijd
+AVERAGE_LOADTIME=Gemiddelde laadtijd
+AVERAGE_LOADTIME_HISTORY=Gemiddelde laadtijden, geschiedenis
+LAST_AVERAGE_LOADTIME=Laatste gemiddelde laadtijd
+LAST_LOAD_TIME=Laatste laadtijd
+LOAD_TIMES_TODAY=Laadtijd vandaag
+LOAD_TIME_IN_SEC=Laadtijd in sec.
+SUCCEEDED_FAILED_REQUESTS_TODAY=Gelukte/mislukte verzoeken vandaag
+SUCCEEDED_FAILED_REQUESTS=Gelukte/mislukte verzoeken
+TOTAL=Totaal
+NO_SERVERS_DOWN=Er zijn geen servers offline op dit moment
+STATISTICS_TODAY=Statistieken vandaag
+UPTIME=Uptime
+TODAY_UPTIME=Uptime vandaag
+TOTAL_UPTIME=Totale Uptime
+SERVER_UP_FOR=Server online voor
+LAST_UPTIME=Laatste Uptime
+REQUESTS_SUCCEED=Verzoeken gelukt
+REQUESTS_FAILED=Verzoeken mislukt
+DOWNTIME=Offline tijd
+LAST_OFFLINE=Laatst offline
+BACK_ONLINE=Terug online
+TIME_OFFLINE=Tijd offline
+GIVEN=Gegeven
+EXTERNAL_WIDGET=Externe Widget
+DESKTOP_NOTIFICATIONS=Desktop melding
+EMAIL_NOTIFICATIONS=E-mail melding
+PUSHBULLET_NOTIFICATIONS=Pushbullet melding
+DISPLAY_NAME=Weergavenaam
+WEBSITE_TO_CHECK=Website om te checken
+CHECK_WEBSITE_EVERY=Check website elke
+FORGOT_URL_NAME=Je bent de server url of de weergave naam vergeten in te vullen
+VALID_SERVER_URL=Voer een geldige url in
+SERVER_URL_INVALID=This url is invalid
+INVALID_CHECK_TIME=De checktijd moet een cijfer zijn
+INVALID_TIMEOUT_TIME=De timeout moet een cijfer zijn
+SERVER_ADDED=Nieuwe server succesvol toegevoegd
+SERVER_EDITED=De server is succesvol bewerkt
+SERVER_DELETE=Weet je zeker dat je server id <i>%server_id%</i> wilt verwijderen? Dit kan niet ongedaan worden gemaakt.<br />De server word verwijderd bij de volgende check
+SERVER_DELETED=De server is verwijderd en word uit het systeem gehaald bij de volgende check.
+HISTORY_NO_DATA=Er is nog geen geschiedenis verzameld
+HISTORY_FROM_DAY=Geschiedenis van dag
+SHOW_THIS_INFORMATION=Bekijk deze informatie
+SERVER_NO_DOWNTIME_TODAY=Er is nog geen downtime geweest vandaag
+SERVER_EVENTS=Server Events
+LATEST_SERVER_EVENTS=Laatste server events
+EXPORT_NAME=Exporteer
+EXPORT_INFO=Je kunt de server lijst exporteren naar een CSV bestand om dit later weer te imporeren of gebruiken voor andere doeleinden. Deze tool exporeert alleen de server lijst en niet alle data.
+EXPORT_FORMAT=Kies export formaat:
+EXPORT_FORMAT_1=Exporteer alle informatie (domeinen, namen, notificatie instellingen)
+EXPORT_FORMAT_2=Exporteer domeinen en namen
+EXPORT_FORMAT_3=Exporteer alleen domeinen
+EXPORT_SUCCESSFULLY=Exporteren succesvol gelukt. <a href="%download_url%" target="_blank">Download</a> het bestand.
+IMPORT_NAME=Importeer
+IMPORT_INFO=Als je een CSV bestand hebt met een paar domeinen er in kun je deze importeren, dan hoef je niet alle domeinen 1 voor 1 toe te voegen.
+IMPORT_FILE=Import File
+IMPORT_FILE_SIZE=Maximale bestand grote %size%
+IMPORT_FILE_HELP=Alleen .csv bestanden toegestaan
+IMPORT_OUTPUT=Import Output:
+LIMIT_REACHED=Je kunt geen servers meer aanmaken omdat jij je limiet hebt bereikt.
+<end>
+
+<begin name="Calendar">
+CALENDAR=Kalender
+CALENDAR_DISABLED=De kalender functie is uitgeschakeld. Upgrade naar PHP 5.3 of hoger om deze functie aan te zetten.
+CALENDAR_INFORMATION=Met de kalender functie kun je server onderhoud instellen zodat je geen onnodige meldingen krijgt dat je site offline is.
+CALENDAR_DATE_ADDED=Datum toegevoegd
+CALENDAR_START_DATE=Start datum
+CALENDAR_END_DATE=Eind datum
+CALENDAR_STATE_WAIT=In wachtlijst
+CALENDAR_STATE_PROGRESS=In process
+CALENDAR_STATE_END=Beëindigd
+CALENDAR_DELETE_CONFIRM=Weet je zeker dat je dit kalender item wilt verwijderen?
+CALENDAR_DELETED=Dit kalender item is succesvol verwijderd.
+CALENDAR_INFORMATION_PLACEHOLDER=Bijvoorbeeld: Server Onderhoud
+CALENDAR_ADD_INVALID_DATE=Je start of eind datum in onjuist
+CALENDAR_ADD_DATE_PASSED=Deze eind datum is al geweest
+CALENDAR_ADD_DATE_OLDER=Eind datum moet ouder zijn als start datum
+CALENDAR_ADDED=Deze datum is aan de kalender toegevoegd.
+CALENDAR_EDITED=Kalender item is bewerkt.
+<end>
+
+<begin name="Pushbullet">
+ACCESS_TOKEN=Access Token
+GET_TOKEN=Krijg je access token
+NEXT_STEP=Volgende stap
+ACCESS_TOKEN_INVALID=Deze pusbullet access token is onjuist.
+ACCESS_TOKEN_VALID=Deze token is juist. Pushbullet email: %email%
+TOKEN_EXIST=This Access Token does already exist in our system.
+PUSHBULLET_ADDED=Pushbullet account successfully added.
+PUSHBULLET_DELETE_CONFIRM=Weet je zeker dat je dit pushbullet profiel wilt verwijderen?<br />De pushbullet meldingen worden uitgezet voor alle servers die op dit profiel ingesteld stonden.<br />
+PUSHBULLET_DELETED=Dit pushbullet profiel is succesvol verwijderd
+<end>
+
+<begin name="Widgets">
+WIDGET_INFORMATION_TITLE=Informatie
+WIDGET_INFORMATION_TEXT=<b>Wat kan ik doem met deze widget?</b><br />Met deze widget kun je de statistieken van een server op je website laten weergeven.<br /><br /><b>Zijn de widgets voor elke servers zichtbaar?</b><br />Nee, je kunt zelf kiezen voor welke servers je de widget aan of uit zet.<br /><br /><b>Hoe kan ik deze widget toevoegen aan mijn website?</b><br />Met een javascript, PHP code of iframe kun je deze widget op jouw website zetten.<br /><br />
+SERVER_WITH_WIDGETS=Servers waar widgets aan staat
+WIDGET_URL=Widget URL
+REPLACE_TEXT=Verander dit met jouw server ID
+<end>
+
+<begin name="Version">
+VERSION=Versie
+VERSION_INFORMATION=Versie informatie
+CURRENT_VERSION=Huidige versie
+NEWEST_VERSION=Nieuwste versie
+VERSION_RELEASE=Versie uitgeef datum
+NEW_VERSION=Nieuwe versie beschikbaar
+VERSION_CHANGELOG=Changelog
+<end>
+
+<begin name="Admin Config">
+NO_PERMISSIONS=Je hebt geen rechten om deze pagina te bekijken.
+SYSTEM_CONFIG=Systeem instellingen
+MAIL_CONFIG=Email instellingen
+SETTINGS_SAVED=De instellingen zijn opgeslagen
+WEBSITE_NAME=Website naam
+ADMIN_TIMEOUT=Timeout
+ADMIN_USER_ACTIVATE=User account activation
+ADMIN_USER_MAX_SERVERS=Gebruikers maximale servers na het registreren
+SIGNIN_CAPTCHA=Captcha bij het inloggen
+REGISTER_PAGE=Registreer pagina
+KEEP_HISTORY=Houd geschiedenis voor
+KEEP_SERVER_EVENTS=Keep server events for
+PANEL_PATH=Paneel map
+SEND_MAIL_OPTION=Verstuur optie
+HOST=Host
+PORT=Port
+SMTP_NOTE=<b>Melding:</b> Als je de SMTP instellingen hebt opgeslagen sturen wij een mail om te kijken of alles werkt.
+CUSTOM_SERVER_INTERVAL=Aangepaste check interval inschakelen (op sommige webhostings/servers veroorzaakt de aangepaste check interval naar problemen)
+DATE_FORMAT=Datum formaat
+TIME_FORMAT=Tijd formaat
+FORMATING_INFO=Meer informatie over datum en tijd notering ga naar <a href="http://php.net/manual/en/function.date.php#refsect1-function.date-parameters" target="_blank">php.net</a>.
+<end>
+
+<begin name="Admin Response Code">
+RESPONSE_CODE_INFORMATION=Met deze instelling kun je de online response codes instellen. Als de webserver een code weergeeft dat in deze lijst staat dan wordt de website als online gezien.
+RESPONSE_CODE_NOTE=<b>Melding:</b> De webserver word als online gezien als de server de response code weergeeft die jij invult.
+RESPONSE_CODE_ADD_ERROR_NOT_FOUND=Deze response code was niet gevonden
+RESPONSE_CODE_ADD_ERROR_INTEGER=Je response code is geen cijfer
+RESPONSE_CODE_ADD_ERROR_NUMBERS=Je response code moet bestaan uit 3 cijfers
+RESPONSE_CODE_ADD_ERROR_BLACKLIST=Je kan deze response code niet toevoegen
+RESPONSE_CODE_ADD_ERROR_EXIST=Deze response code staat al in het systeem
+RESPONSE_CODE_ADDED=Deze response code is succesvol toegevoegd
+RESPONSE_CODE_DELETE=Weet je zeker dat je response code <i>%id%</i> wilt verwijderen? Als je deze response code verwijderd worden alle servers op offline gezet met deze response code.<br /><br />
+RESPONSE_CODE_DELETED=Deze response code is succesvol verwijderd, als de website de code %id% weergeeft word deze website als offline weergegeven,
+<end>
+
+<begin name="Admin System Check">
+SYSTEM_INFO=Systeem Info
+SYSTEM_CHECK=Systeem Check
+SYSTEM_CHECK_NO_ERRORS=Er zijn geen errors gevonden.
+SYSTEM_CHECK_FILE_EXIST=Bestand <b>/%file%</b> bestaat nog steeds, verwijder dit bestand.
+SYSTEM_CHECK_FOLDER_EXIST=De map <b>/%folder%</b> bestaat nog steeds! Verwijder deze map.
+SYSTEM_CHECK_LAST_CRON_RUN=De laatste cronjob werd uitgevoerd op <b>%date%</b> dus het lijkt er op dat je cronjob gestopt is met werken.
+SYSTEM_CHECK_FILE_WRITEABLE=The <b>%file%</b> file is still writeable, please chmod the file to 0644
+SYSTEM_CHECK_FOLDER_NOT_WRITEABLE=The <b>%folder%</b> folder is not writeable, please chmod the folder to 0777
+LAST_CRON_RUNTIME=Laatste cronjob run
+IMPORT_EXPORT_DISABLED=Importeren en exporteren is op dit moment uitgeschakeld. Neem contact op met de server beheerder om een systeem check te doen in het Administatie paneel.
+<end>
+
+<begin name="Admin User Management">
+ADMIN=Admin
+LIMIT=Limiet
+LAST_SIGNIN=Laatste inlogdatum
+THEME=Thema
+DASHBOARDCHART=Dashboard chart
+PASSWORD_LEAVE_BLANK=Laat leeg als je het wachtwoord niet wilt veranderen
+MAXIMUM_SERVERS=Maximale servers
+USER_EDITED=Deze gebruiker is succesvol bewerkt.
+USER_ADDED=Deze gebruiker is succesvol toegevoegd.
+USER_DELETE_CONFIRM=Weet je zeker dat je de gebruiker <i>%username%</i> wilt verwijderen? Dit kan niet ongedaan worden gamaakt. Alle servers van deze gebruiker worden ook verwijderd!<br /><br />
+USER_DELETED=Deze gebruiker is nu verwijderd.
+USER_ACCOUNT_SAVED=Account instellingen zijn succesvol opgeslagen
+THEME_LIGHT=Licht
+THEME_DARK=Donker
+<end>
+
+<begin name="Language Manager">
+LANG_CODE=Code
+LANGUAGE_NAME=Taal naam
+LANGUAGE_MONITOR_VERSION=Voor monitor versie
+LANGUAGE_CREATED_BY=Gemaakt door
+LANGUAGE_UPDATED_DATE=Update datum
+LANGUAGE_NOT_WRITEABLE=Het taalpakket is niet schijfbaar, verander de bestandsrechten van <b>%file%</b> naar 0777
+LANGUAGE_FOLDER_NOT_WRITEABLE=De 'language' map is niet schijfbaar, verander de rechten van de map <b>%folder%</b> naat 0777
+LANGUAGE_EDIT_FILE=Bewerk taal
+LANGUAGE_FILE_EDITED=Dit taalpakket is succesvol bewerkt.
+LANGUAGE_FILE_UPDATED=Dit taalpakket is succesvol bewerkt
+LANGUAGE_UPDATED=Geupdate
+LANGUAGE_UPDATE_NEEDED=Heeft update nodig
+LANGUAGE_UPDATE_NEEDED_ERROR=Het taalpakket dat je probeert te verdubblen is nog niet geupdate, update dit taalpakket eerst voor je het verdubbelt.
+LANGUAGE_DUPLICATED=Dit taalpakket is succesvol verdubbelt
+LANGUAGE_DELETED=Dit taalpakket is succesvol verwijderd
+LANGUAGE_DELETE=Weet je zeker dat je het taalpakket %lang% wilt verwijderen? Dit kan niet ongedaan worden.
+LANGUAGE_DELETE_DEFAULT=Standaard
+LANGUAGE_SYSTEM_DEFAULT=Standaard systeem taal
+LANGUAGE=Taal
+<end>
+
+<begin name="Cronjob & Website Notification">
+CRON_UNKNOWN_ERROR_MSG=We hebben een onbekende fout op uw website ontdekt. Details die we kennen:<br /><b>Error Code:</b> %curl_errno%<br /><b>Error:</b> %curl_error%<br /><b>Website:</b> %server_url%<br /><b>HTTP Code:</b> %httpcode%
+CRON_OFFLINE_INVALID_RESPONSE_CODE_MSG=We hebben vastgesteld dat uw site niet bereikbaar is. Uw site had een laadtijd van %load_time% seconden.<br /><b>Website:</b> %server_url%<br /><b>HTTP Code:</b> %httpcode%
+CRON_ONLINE_MSG=We hebben vastgesteld dat uw site weer online is. Uw site had een laadtijd van %load_time% seconden.<br /><b>Website:</b> %server_url%<br /><b>HTTP Code:</b> %httpcode%
+CRON_ONLINE_TITLE=[Uptime Monitor] %name% is terug online!
+CRON_OFFLINE_TITLE=[Uptime Monitor] %name% is offline
+WEBSITE_ONLINE_TITLE=%name% is back online
+WEBSITE_OFFLINE_TITLE=%name% is offline
+WEBSITE_NOTIFICATION_MSG=URL: %url%<br />Response code: %response_code%<br />Laadtijd: %load_time%<br />Check tijd: %date%
+<end>

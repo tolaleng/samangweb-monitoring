@@ -1,0 +1,344 @@
+## Website Uptime Monitor Language File
+## Language name: English
+## Monitor Version: 1.4.4
+## Created By: Justin991q
+
+<begin name="Global">
+DEMO=This is a demo version which is for testing purposes only. Due to safety reasons we have disabled some features.
+INSTALL=The <b>/install/</b> folder is still exist, please remove the <b>/install/</b> folder.
+LOGIN_TOKEN_EXPIRED=Login Token expired, please login again.
+PASSWORD=Password
+REPEATPASSWORD=Repeat Password
+NEW_PASSWORD=New Password
+NAME=Name
+USERNAME=Username
+EMAIL=Email
+USERNAME_EMAIL=Username or Email
+CAPTCHA=Captcha
+WRONGCAPTCHA=Your captcha is not correct.
+FIELDSREQUIRED=Please fill in all fields.
+FORGOT_SOMETHING=You forgot someting.
+INVALIDCRFS=Invalid CSRF Token, please refresh the page.
+USERNAME_PASSWORD_NOT_CORRECT=This username/email or password was not found.
+AVERAGE=Average
+DATE=Date
+STATE=State
+ONLINE=Online
+OFFLINE=Offline
+UNKNOWN=Unknown
+DISABLED=Disabled
+DELETED=Deleted
+OWNER=Owner
+YES=Yes
+NO=No
+CHECK=Check
+SAVE=Save
+CANCEL=Cancel
+CURRENT=Current
+NOTIFICATIONS=Notifications
+OPTIONS=Options
+DELETE=Delete
+UPDATE=Update
+DUPLICATE=Duplicate
+DOWNLOAD=Download
+EDIT=Edit
+STATISTICS=Statistics
+NOT_AVAILABLE=Not available
+UNLIMITED=Unlimited
+INFORMATION=Information
+ADD=Add
+DEFAULT=Default
+LOADING_DASHBOARD=Loading Dashboard, please wait for a moment.
+LOADING_SERVERS=Loading Servers, please wait for a moment.
+<end>
+
+<begin name="Date and time">
+DATEFORMAT=%a day(s), %h hour(s), %i minute(s)
+DAYS=day(s)
+SECONDS=second(s)
+MINUTES=minute(e)
+TODAY=Today
+YESTERDAY=Yesterday
+<end>
+
+<begin name="Not Found & Found">
+SERVER_NOT_FOUND=This server was not found.
+DOMAIN_EXISTS=This domain does already exists in the server list.
+USER_NOT_FOUND=This user does not exists.
+LANGUAGE_NOT_FOUND=This language pack does not exists.
+LANGUAGE_FOUND=This language pack is already exists.
+PUSHBULLET_NOT_FOUND=Pushbullet account was not found.
+RESET_PASSWORD_ERROR_USER_NOT_FOUND=This username and/or email does not exists.
+CALENDAR_NOT_FOUND=This calendar item was not found.
+<end>
+
+<begin name="Sign Up & Sign In & Reset Password & Activate">
+SIGNIN=Sign In
+SIGNUP=Sign Up
+SIGNUP_LONGER_USERNAME=Your username must be longer than %char% characters.
+SIGNUP_LONGER_PASSWORD=Your password must be longer than %char% characters.
+SIGNUP_PASSWORD_NOT_MATCH=Your passwords does not match.
+SIRNUP_USERNAME_EXIST=This username is already exist in our system.
+SIRNUP_EMAIL_EXIST=This email is already exist in our system.
+SIGNUP_EMAIL_INVALID=This email address is invalid.
+SIGNUP_THEME_INVALID=This theme was not found.
+SIGNUP_MAXSERVER_INTEGER=The 'Maximum servers' must be an integer
+SIGNUP_COMPLETED=Welcome %username%, your account is now created. You can now sign in with your given credentials
+RESET_PASSWORD=Reset Password
+RESET_PASSWORD_REQUESTED=We've sent you an email to reset your password
+RESET_PASSWORD_REQUESTED_FAILED=You've already requested to change your password, you can send a request again within 1 hour.
+INVALID_RESET_CODE=This is an invalid password reset code.
+PASSWORD_CHANGED=Your password is successfully changed, you can now signin with your new password.
+INVALID_ACTIVATE_CODE=This is an invalid activate code.
+ACCOUNT_ACTIVATED=Your account is successfully activated. You can now login.
+ACCOUNT_ACITVATE_NOTIFICATION=You have to activate your account before you can use the monitor.
+ACCOUNT_INACTIVE=Your account is not activated yet. Please check your email to activate your account.
+<end>
+
+<begin name="Emails">
+RESET_PASSOWRD_EMAIL_TITLE=[Uptime Monitor] Reset Password
+RESET_PASSOWRD_EMAIL_MESSAGE=<b>Hello %username%,</b><br /><br />You have requested a new password for your account on %title%.<br /><b>Username:</b> %username%<br /><b>Recovery url:</b> <a href='%url%'>%url%</a><br /><br />If you did not ask for account recovery, you can ignore this e-mail.<br /><br /><b>Kind Regards,</b><br /><br />%title%
+ACCOUNT_ACTIVATE_EMAIL_TITLE=[Uptime Monitor] Activate your account
+ACCOUNT_ACTIVATE_EMAIL_MESSAGE=<b>Hello %username%,</b><br /><br />Welcome to %title%.<br />Before you can use our service you have to activate your account.<br /><b>Username:</b> %username%<br /><b>Password:</b> %password%<br /><b>Activate url:</b> <a href='%url%'>%url%</a><br /><br />If you didn't create this account, you can ignore this email.<br /><br /><b>Kind Regards,</b><br /><br />%title%
+<end>
+
+<begin name="Menu">
+MENU_DASHBOARD=Dashboard
+SERVER_MANAGER=Server Manager
+HISTORY=History
+HELP=Help
+WIDGETS=Widgets
+ADMINISTRATION=Administration
+CONFIG=Configuration
+RESPONSE_CODES=Response codes
+USER_MANAGEMENT=User Management
+SYSTEM_CHECK=System Check
+LANGUAGE_MANAGER=Language Manager
+ACCOUNT_SETTINGS=Account Settings
+SIGNOUT=Sign Out
+<end>
+
+<begin name="Dashboard & Server Manager & History">
+NEVER=Never
+SERVER=Server
+SERVER_SETTINGS=Server Settings
+SERVER_STATUS=Server Status
+ALL_SERVERS=all servers
+EMAIL_LEAVE_BLANK=Leave blank to disable email notifications
+CURRENTLY_DOWN=Currently Down
+RESPONSE=Response
+RESPONSE_CODE=Response code
+TOTAL_RESPONSE_CODES=Total response codes
+RESPONSE_CODES_LAST_HOUR=Response codes last hour
+RESPONSE_CODES_TODAY=Response codes today
+LOAD_TIME=Load Time
+AVERAGE_LOADTIME=Average load time
+AVERAGE_LOADTIME_HISTORY=Load times Avg. History
+LAST_AVERAGE_LOADTIME=Last average load time
+LAST_LOAD_TIME=Last load time
+LOAD_TIMES_TODAY=Load times today
+LOAD_TIME_IN_SEC=Load time in sec.
+SUCCEEDED_FAILED_REQUESTS_TODAY=Succeeded/failed requests today
+SUCCEEDED_FAILED_REQUESTS=Succeeded/failed requests
+TOTAL=Total
+NO_SERVERS_DOWN=There are no servers offline at the moment.
+STATISTICS_TODAY=Statistics Today
+UPTIME=Uptime
+TODAY_UPTIME=Today uptime
+TOTAL_UPTIME=Total uptime
+SERVER_UP_FOR=Server online for
+LAST_UPTIME=Last Uptime
+REQUESTS_SUCCEED=Requests succeed
+REQUESTS_FAILED=Requests failed
+DOWNTIME=Downtime
+LAST_OFFLINE=Last Offline
+BACK_ONLINE=Back Online
+TIME_OFFLINE=Time Offline
+GIVEN=Given
+EXTERNAL_WIDGET=External Widget
+DESKTOP_NOTIFICATIONS=Desktop notifications
+EMAIL_NOTIFICATIONS=E-mail Notifications
+PUSHBULLET_NOTIFICATIONS=Pushbullet Notifications
+DISPLAY_NAME=Display Name
+WEBSITE_TO_CHECK=Website to check
+CHECK_WEBSITE_EVERY=Check website every
+FORGOT_URL_NAME=You forgot to enter the Server URL or the Display Name
+VALID_SERVER_URL=Please enter valid a server url
+SERVER_URL_INVALID=This url is invalid
+INVALID_CHECK_TIME=Your check time must be an ingenter!
+INVALID_TIMEOUT_TIME=Your timeout must be an ingenter!
+SERVER_ADDED=New server added successfully.
+SERVER_EDITED=This server is successfully edited.
+SERVER_DELETE=Are you sure you want delete server id <i>%server_id%</i>? This cannot be undone.<br />The server would be deleted at the next check
+SERVER_DELETED=This server would be deleted at the next check.
+HISTORY_NO_DATA=There is no history collected yet.
+HISTORY_FROM_DAY=History from day
+SHOW_THIS_INFORMATION=Show this information
+SERVER_NO_DOWNTIME_TODAY=There was no downtime today
+SERVER_EVENTS=Server Events
+LATEST_SERVER_EVENTS=Latest Server Events
+EXPORT_NAME=Export
+EXPORT_INFO=You can export the server list to an CSV format to import it later again or use it for other purposes. This tool will only export the server list and not all the data of the servers.
+EXPORT_FORMAT=Choose export format:
+EXPORT_FORMAT_1=Export all information (domains, names, notification settings)
+EXPORT_FORMAT_2=Export domains and names
+EXPORT_FORMAT_3=Export domains only
+EXPORT_SUCCESSFULLY=Exported server list successfully <a href="%download_url%" target="_blank">download</a> the file
+IMPORT_NAME=Import
+IMPORT_INFO=If you have a CSV file with some domains you can import it, so you don't have to add those domains by yourself.
+IMPORT_FILE=Import File
+IMPORT_FILE_SIZE=Maximum file size %size%
+IMPORT_FILE_HELP=Only .csv files are allowed.
+IMPORT_OUTPUT=Import Output:
+LIMIT_REACHED=You can't create servers anymore because you have reached your limit.
+<end>
+
+<begin name="Calendar">
+CALENDAR=Calendar
+CALENDAR_DISABLED=The calendar feature has been disabled. Upgrade to PHP 5.3 or higher to enable this feature.
+CALENDAR_INFORMATION=With the calendar feature you can plan server maintenance so you don't get any unwanted notifications that your site is offline.
+CALENDAR_DATE_ADDED=Added date
+CALENDAR_START_DATE=Start Date
+CALENDAR_END_DATE=End Date
+CALENDAR_STATE_WAIT=In Queue
+CALENDAR_STATE_PROGRESS=In Progress
+CALENDAR_STATE_END=Ended
+CALENDAR_DELETE_CONFIRM=Are you sure you want to delete this calendar item ?
+CALENDAR_DELETED=This calendar item is successfully deleted.
+CALENDAR_INFORMATION_PLACEHOLDER=E.g. Server Maintenance
+CALENDAR_ADD_INVALID_DATE=Your start or end date is invalid.
+CALENDAR_ADD_DATE_PASSED=This end date is already passed.
+CALENDAR_ADD_DATE_OLDER=End date must be older than start date.
+CALENDAR_ADDED=This date has been added to the calendar.
+CALENDAR_EDITED=Calendar item successfully edited.
+<end>
+
+<begin name="Pushbullet">
+ACCESS_TOKEN=Access Token
+GET_TOKEN=Get your access token
+NEXT_STEP=Next Step
+ACCESS_TOKEN_INVALID=This Pushbullet access token is invalid!
+ACCESS_TOKEN_VALID=Token is valid. Pushbullet email: %email%
+TOKEN_EXIST=This Access Token does already exist in our system.
+PUSHBULLET_ADDED=Pushbullet account successfully added.
+PUSHBULLET_DELETE_CONFIRM=Are you sure you want delete this Pushbullet account?<br />The pushbullet notifications from all servers with this pushbullet account will be disabled.<br />
+PUSHBULLET_DELETED=This pushbullet account is successfully deleted.
+<end>
+
+<begin name="Widgets">
+WIDGET_INFORMATION_TITLE=Information
+WIDGET_INFORMATION_TEXT=<b>What can I do with the widget?</b><br />With the widgets you are allowed to show the uptime stats on another website.<br /><br /><b>Are the widgets for every server visible?</b><br />No, you can enable or disable the widgets for each website.<br /><br /><b>How can I add the widget on my website?</b><br />With a javascript or PHP code you're able to show the widget on other websites.<br /><br />
+SERVER_WITH_WIDGETS=Servers with widgets enabled
+WIDGET_URL=Widget URL
+REPLACE_TEXT=replace this with your server ID
+<end>
+
+<begin name="Version">
+VERSION=Version
+VERSION_INFORMATION=Version Information
+CURRENT_VERSION=Current Version
+NEWEST_VERSION=Newest Version
+VERSION_RELEASE=Version release date
+NEW_VERSION=New version available
+VERSION_CHANGELOG=Changelog
+<end>
+
+<begin name="Admin Config">
+NO_PERMISSIONS=You don't have permissions to view this page.
+SYSTEM_CONFIG=System Config
+MAIL_CONFIG=Email Config
+SETTINGS_SAVED=The settings are saved.
+WEBSITE_NAME=Website Name
+ADMIN_TIMEOUT=Timeout
+ADMIN_USER_ACTIVATE=User account activation
+ADMIN_USER_MAX_SERVERS=Users max servers after register
+SIGNIN_CAPTCHA=Sign In Captcha
+REGISTER_PAGE=Register Page
+KEEP_HISTORY=Keep site history for
+KEEP_SERVER_EVENTS=Keep server events for
+PANEL_PATH=Panel path
+SEND_MAIL_OPTION=Send Mail Option
+HOST=Host
+PORT=Port
+SMTP_NOTE=<b>Note:</b> If you save the SMTP settings we will send you an email to check if everything works.
+CUSTOM_SERVER_INTERVAL=Enable Custom Check interval (on some webhostings/servers the custom interval can lead to some problems)
+DATE_FORMAT=Date Format
+TIME_FORMAT=Time Format
+FORMATING_INFO=More information about time and date formating go to <a href="http://php.net/manual/en/function.date.php#refsect1-function.date-parameters" target="_blank">php.net</a>.
+<end>
+
+<begin name="Admin Response Code">
+RESPONSE_CODE_INFORMATION=With this setting you can set the online response codes. If the website a gives response code that is listed in this list then the website will be shown as online.
+RESPONSE_CODE_NOTE=<b>Note:</b> The website will be shown as online when the webserver returns the same response code that you give.
+RESPONSE_CODE_ADD_ERROR_NOT_FOUND=This response code was not found.
+RESPONSE_CODE_ADD_ERROR_INTEGER=Your response code is not an integer.
+RESPONSE_CODE_ADD_ERROR_NUMBERS=Your response code must have 3 numbers.
+RESPONSE_CODE_ADD_ERROR_BLACKLIST=You cannot add this response code.
+RESPONSE_CODE_ADD_ERROR_EXIST=This response code is already exist in our system.
+RESPONSE_CODE_ADDED=This response code is successfully added.
+RESPONSE_CODE_DELETE=Are you sure you want to delete response code <i>%id%</i>? This cannot be undone.<br />If you remove this response code all servers with this code will be set to offline.<br /><br />
+RESPONSE_CODE_DELETED=This response code is successfully deleted. When a web server returns code %id% than the website will be shown as offline.
+<end>
+
+<begin name="Admin System Check">
+SYSTEM_INFO=System Info
+SYSTEM_CHECK=System Check
+SYSTEM_CHECK_NO_ERRORS=There were no errors detected in your system.
+SYSTEM_CHECK_FILE_EXIST=File <b>/%file%</b> does still exist! Please remove this file.
+SYSTEM_CHECK_FOLDER_EXIST=The folder <b>/%folder%</b> does still exist! Please remove this folder.
+SYSTEM_CHECK_LAST_CRON_RUN=The last cronjob runtime was at <b>%date%</b> so it seems like your cronjob stopped working.
+SYSTEM_CHECK_FILE_WRITEABLE=The <b>%file%</b> file is still writeable, please chmod the file to 0644
+SYSTEM_CHECK_FOLDER_NOT_WRITEABLE=The <b>%folder%</b> folder is not writeable, please chmod the folder to 0777
+LAST_CRON_RUNTIME=Last Cronjob run
+IMPORT_EXPORT_DISABLED=Import and export is currently disabled. Contact the server Administrator to do a System Check in de Administration panel.
+<end>
+
+<begin name="Admin User Management">
+ADMIN=Admin
+LIMIT=Limit
+LAST_SIGNIN=Last Signin
+THEME=Theme
+DASHBOARDCHART=Dashboard chart
+PASSWORD_LEAVE_BLANK=Leave blank if you don't want to change the password
+MAXIMUM_SERVERS=Maximum servers
+USER_EDITED=This user was edited successfully.
+USER_ADDED=This user was added successfully.
+USER_DELETE_CONFIRM=Are you sure you want delete the user <i>%username%</i>? This cannot be undone. All the servers of this user will be deleted as well!<br /><br />
+USER_DELETED=This user is now deleted.
+USER_ACCOUNT_SAVED=Account settings saved successfully
+THEME_LIGHT=Light
+THEME_DARK=Dark
+<end>
+
+<begin name="Language Manager">
+LANG_CODE=Code
+LANGUAGE_NAME=Language Name
+LANGUAGE_MONITOR_VERSION=For monitor version
+LANGUAGE_CREATED_BY=Created By
+LANGUAGE_UPDATED_DATE=Updated
+LANGUAGE_NOT_WRITEABLE=The language file is not writeable, please chmod <b>%file%</b> to 0777
+LANGUAGE_FOLDER_NOT_WRITEABLE=The language folder is not writeable, please chmod <b>%folder%</b> to 0777
+LANGUAGE_EDIT_FILE=Edit language
+LANGUAGE_FILE_EDITED=This language file is successfully edited.
+LANGUAGE_FILE_UPDATED=This language file is successfully updated.
+LANGUAGE_UPDATED=Updated
+LANGUAGE_UPDATE_NEEDED=Update Needed
+LANGUAGE_UPDATE_NEEDED_ERROR=The language pack you try to duplicate is not updated, please update the language pack before you duplicate it.
+LANGUAGE_DUPLICATED=This language pack is successfully duplicated.
+LANGUAGE_DELETED=This language pack is successfully deleted.
+LANGUAGE_DELETE=Are you sure you want to delete this language pack (%lang%). This cannot be undone.
+LANGUAGE_DELETE_DEFAULT=You cannot remove the default language file.
+LANGUAGE_SYSTEM_DEFAULT=System default language
+LANGUAGE=Language
+<end>
+
+<begin name="Cronjob & Website Notification">
+CRON_UNKNOWN_ERROR_MSG=We've detected an unknown error on your website. Details that we know:<br /><b>Error Code:</b> %curl_errno%<br /><b>Error:</b> %curl_error%<br /><b>Website:</b> %server_url%<br /><b>HTTP Code:</b> %httpcode%
+CRON_OFFLINE_INVALID_RESPONSE_CODE_MSG=We've detected that your site is down. Your site had a load time of %load_time% seconds.<br /><b>Website:</b> %server_url%<br /><b>HTTP Code:</b> %httpcode%
+CRON_ONLINE_MSG=We've detected that your site is back online. Your site had a load time of %load_time% seconds.<br /><b>Website:</b> %server_url%<br /><b>HTTP Code:</b> %httpcode%
+CRON_ONLINE_TITLE=[Uptime Monitor] %name% is back online
+CRON_OFFLINE_TITLE=[Uptime Monitor] %name% is offline
+WEBSITE_ONLINE_TITLE=%name% is back online
+WEBSITE_OFFLINE_TITLE=%name% is offline
+WEBSITE_NOTIFICATION_MSG=URL: %url%<br />Response code: %response_code%<br />Loadtime: %load_time%<br />Check date: %date%
+<end>
