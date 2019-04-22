@@ -1,0 +1,6 @@
+Options +FollowSymLinks -Indexes
+RewriteEngine Off
+
+<Files "config.php">
+	deny from all
+</Files>
