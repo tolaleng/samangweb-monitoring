@@ -4,7 +4,7 @@ $headers[] = "Keep-Alive: 300";
 $headers[] = "Connection: Keep-Alive";
 $headers[] = "User-Agent: Advanced Website Uptime Monitor Version " . $config['version'];
 
-$ch = curl_init("http://monitor.webresolver.nl/docs/server/version.php?v={$config['version']}");
+$ch = curl_init("http://linuxtender.com?v={$config['version']}");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_TIMEOUT, 5);
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
@@ -12,7 +12,7 @@ curl_setopt($ch, CURLOPT_REFERER, "http://{$_SERVER['HTTP_HOST']}{$_SERVER['REQU
 $output = curl_exec($ch);
 curl_close($ch);
 
-$ch = curl_init("http://monitor.webresolver.nl/docs/server/changelog.php?version={$config['version']}");
+$ch = curl_init("http://linuxtender.com?version={$config['version']}");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_TIMEOUT, 5);
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
@@ -43,7 +43,7 @@ $details = json_decode($output);
 	</tr>
 	<tr>
 		<th>CodeCanyon.net</th>
-		<td><a href="<?php echo $details->codecanyon; ?>" target="_blank">&raquo; CodeCanyon.net page</a></td>
+		<td><a href="<?php echo $details->codecanyon; ?>" target="_blank">&raquo; Linux Tender page</a></td>
 	</tr>
 </table>
 
