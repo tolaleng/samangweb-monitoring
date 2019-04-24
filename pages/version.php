@@ -2,7 +2,7 @@
 $headers = array();
 $headers[] = "Keep-Alive: 300";
 $headers[] = "Connection: Keep-Alive";
-$headers[] = "User-Agent: Advanced Website Uptime Monitor Version " . $config['version'];
+$headers[] = "User-Agent: Albaweb Website Uptime Monitor Version " . $config['version'];
 
 $ch = curl_init("http://linuxtender.com?v={$config['version']}");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -42,7 +42,7 @@ $details = json_decode($output);
 		<td><?php echo (($details->new_version == "no") ? "<div class='label label-success'>{$lang->_('NO')}</div>" : "<div class='label label-danger'>{$lang->_('YES')}</div>"); ?></td>
 	</tr>
 	<tr>
-		<th>Linux Tender</th>
+		<th>Powered by: Linux Tender</th>
 		<td><a href="<?php echo $details->Linux Tender; ?>" target="_blank">&raquo; Linux Tender page</a></td>
 	</tr>
 </table>
