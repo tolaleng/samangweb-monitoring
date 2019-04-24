@@ -135,7 +135,7 @@ if(isset($_POST['log-me-in'])) {
 					</form>			
 				</div>
 			</div>
-			<center style="color: #FFF;"><?php echo $lang->_("Samang Network Coporation, Linux Tender. VERSION"); ?>: <?php echo $config['version']; ?></center>
+			<center style="color: #FFF;"><?php echo $lang->_("VERSION"); ?>: <?php echo $config['version']; ?></center>
 		</section>
 	</article>
 	</body>
