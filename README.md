@@ -23,3 +23,31 @@ Requirements:
 6. PHP cURL extension
 7. Cronjob access
 8. PHP mail() (recommended)
+
+Installation
+Step 1
+## 1. clone the repo
+git clone --depth 1 https://github.com/tolaleng/Albaweb-Website-Monitoring.git
+
+## 2. go to the cloned directory
+cd albaweb/app/server
+OR, if you prefer to download manually:
+
+## 1. Download the .zip
+curl -LOk https://github.com/tolaleng/Albaweb-Website-Monitoring/archive/master.zip && unzip master.zip
+
+## 2. navigate to downloaded & unzipped dir
+cd albaweb-master/app/server
+Step 2
+See instructions for preferred server albaweb server (all included):
+
+Node.js (recommended)
+Go
+Python
+PHP
+
+Support
+For general help, please access to linuxtender.com
+
+Security
+It is strongly recommended that all albaweb installations be protected via a security measure of your choice.
