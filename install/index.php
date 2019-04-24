@@ -14,7 +14,7 @@ require_once("install.class.php");
 	<meta name="robots" content="noindex, nofollow">
 	<meta name="author" content="Justin991q">
 
-	<title>Advanced Website Uptime Monitor - Installer</title>
+	<title>Albaweb Website Uptime Monitor - Installer</title>
 
 	<link rel="icon" href="../assets/images/icon.png">
 	
@@ -41,7 +41,7 @@ require_once("install.class.php");
 <body>
 <div class="container">
 	<div class="header clearfix">
-		<h3 class="text-muted">Advanced Website Uptime Monitor - Installer</h3>
+		<h3 class="text-muted">Albaweb Website Uptime Monitor - Installer</h3>
 	</div>
 	<div class="row marketing">
 		<div class="col-lg-9">
@@ -96,7 +96,7 @@ require_once("install.class.php");
 						echo "<div class='alert alert-danger'>{$error}<br />Please try the installation <a href='index.php'>again</a>.</div>";
 					}else{
 				?>
-					The installation of Website Monitor is successfully completed.<br /><br />
+					The installation of Albaweb Website Monitor is successfully completed.<br /><br />
 					<b>Panel URL:</b> <a href="<?php echo $domain; ?>"><?php echo $domain; ?></a><br />
 					<b>Username:</b> <?php echo $_SESSION['username']; ?><br />
 					<b>Password:</b> <?php echo $_SESSION['password']; ?><br /><br />
@@ -111,7 +111,7 @@ require_once("install.class.php");
 					<b>Cronjob example:</b>
 					<input type="text" class="form-control" id="cronjob" value="*/1 * * * * /usr/local/bin/php <?php echo str_replace("/install", "", dirname(__FILE__)); ?>/cronjob/Checker.php >/dev/null 2>&1" onclick="this.setSelectionRange(0, this.value.length)" readonly><br />
 			
-					<b>Don't know how to create a cronjob? <a href="http://monitor.webresolver.nl/docs/#Cronjob" target="_blank">See our documentation</a>
+					<b>Don't know how to create a cronjob? <a href="https://about.linuxtender.com/home/contactme" target="_blank">See our documentation</a>
 					
 					<br /><br />
 					<div class="alert alert-danger">Please delete for security reasons the <b>/install/</b> folder!</div>
@@ -189,7 +189,7 @@ require_once("install.class.php");
 					}						
 					}elseif(@$_SESSION['step'] == '3' || isset($_POST['step3'])) {
 						$_SESSION['step'] = '3';
-						$name = "Website Monitor";
+						$name = "Albaweb Website Monitor";
 						$email = "uptime@{$_SERVER['HTTP_HOST']}";
 						$register = 0;
 						$captcha = 1;
