@@ -30,14 +30,14 @@ Step 1
 git clone --depth 1 https://github.com/tolaleng/samangweb-monitoring.git
 
 ## 2. go to the cloned directory
-cd samangweb/app/server
+cd samangweb-monitoring/app/server
 OR, if you prefer to download manually:
 
 ## 1. Download the .zip
 curl -LOk https://github.com/tolaleng/samangweb-monitoring/archive/master.zip && unzip master.zip
 
 ## 2. navigate to downloaded & unzipped dir
-cd samangweb-master/app/server
+cd samangweb-monitoring-master/app/server
 Step 2
 See instructions for preferred server samangweb server (all included):
 
@@ -47,7 +47,7 @@ Python
 PHP
 
 Support
-For general help, please access to http://projects.linuxcambodia.org/
+For general help, please access to http://projects.linuxcambodia.org/ or text me at pkaylinux*@*gmail*.*com
 
 Security
 It is strongly recommended that all samang web monitor installations be protected via a security measure of your choice.
