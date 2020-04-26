@@ -1,4 +1,4 @@
-# Samang-Website-Monitoring
+# Samang-Web-Monitoring
 With this Samang Web Monitor you can basically check the uptime and the reaction time of a site.  Our site screen gives you a propelled uptime outline of your sites.  When a site goes down, you'll be informed quickly through email, work area notice or Pushbullet, if the site is back online you'll be advised also.
 
 Features:
@@ -27,14 +27,14 @@ Requirements:
 Installation
 Step 1
 ## 1. clone the repo
-git clone --depth 1 https://github.com/tolaleng/Albaweb-Website-Monitoring.git
+git clone --depth 1 https://github.com/tolaleng/samangweb-monitoring.git
 
 ## 2. go to the cloned directory
 cd samangweb/app/server
 OR, if you prefer to download manually:
 
 ## 1. Download the .zip
-curl -LOk https://github.com/tolaleng/Albaweb-Website-Monitoring/archive/master.zip && unzip master.zip
+curl -LOk https://github.com/tolaleng/samangweb-monitoring/archive/master.zip && unzip master.zip
 
 ## 2. navigate to downloaded & unzipped dir
 cd samangweb-master/app/server
