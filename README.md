@@ -47,7 +47,7 @@ Python
 PHP
 
 Support
-For general help, please access to http://projects.linuxcambodia.org/ or text me at pkaylinux*@*gmail*.*com
+For general help, text me at pkaylinux*@*gmail*.*com
 
 Security
 It is strongly recommended that all samang web monitor installations be protected via a security measure of your choice.
