@@ -1,5 +1,5 @@
 # Samang-Web-Monitoring
-With this Samang Web Monitor you can basically check the uptime and the reaction time of a site.  Our site screen gives you a propelled uptime outline of your sites.  When a site goes down, you'll be informed quickly through email, work area notice or Pushbullet, if the site is back online you'll be advised also.
+You can effectively test a site's uptime and reaction time using this Samang Web Monitor. Our website screen offers a driven overview of the websites uptime. When a site goes down, you will be promptly informed by email, notice of the work area or Pushbullet, if the site is back online, you will also be advised.
 
 Features:
 - Add, edit or delete websites
